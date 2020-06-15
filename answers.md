@@ -15,6 +15,8 @@ DD_AGENT_MAJOR_VERSION=7 DD_API_KEY=215f1779e61ab8eb3ec19085d06a3f97 bash -c "$(
 
 **Added tags to agent config datadog.yaml:
 tags: ["db:mongo", "dev:phx", "os:linux", "contact:mark"]**
+![](https://github.com/mschwartzlose2/hiring-engineers/blob/master/tags.jpg)
+
 (https://github.com/mschwartzlose2/hiring-engineers/blob/master/tags.jpg)
 
 **Created  /etc/datadog-agent/conf.d/mongo.d/conf.yaml to monitor mongodb.**
@@ -134,21 +136,37 @@ Is there anything creative you would use Datadog for?
 
 **Some of the docs, searches and commands used:**
 https://docs.datadoghq.com/agent/basic_agent_usage/centos/?tab=agentv6v7
+
 https://docs.datadoghq.com/tracing/setup/python/
+
 https://app.datadoghq.com/apm/docs?architecture=host-based&language=python
+
 https://docs.datadoghq.com/agent/troubleshooting/agent_check_status/?tab=agentv6v7#linux
+
 https://docs.datadoghq.com/developers/write_agent_check/?tab=agentv6v7
+
 https://coderwall.com/p/s2ttyg/random-number-generator-in-bash
+
 https://docs.datadoghq.com/api/v1/dashboards/#create-a-new-dashboard
+
 https://www.tutorialspoint.com/mongodb/index.htm
+
 https://docs.datadoghq.com/dashboards/guide/custom_time_frames/
+
 http://pypi.datadoghq.com/trace/docs/db_integrations.html#flask-cache
+
 https://stackoverflow.com/questions/21530577/fatal-error-python-h-no-such-file-or-directory
+
 https://docs.datadoghq.com/tracing/guide/setting_primary_tags_to_scope/
+
 sudo service datadog-agent status
+
 sudo -u dd-agent -- datadog-agent check randomnumber
+
 sudo service datadog-agent start
+
 sudo service datadog-agent stop
+
 sudo service datadog-agent restart
 
 
